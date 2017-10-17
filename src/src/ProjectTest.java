@@ -1,3 +1,11 @@
+/*
+    Project JUnit Tests
+    created by dkostu2s together with Project class by obayer2s
+
+
+ */
+
+
 import org.junit.Test;
 import org.junit.Before;
 import static org.junit.Assert.*;
@@ -33,6 +41,11 @@ public class ProjectTest {
 
     @Test
     public void iswellSorted_lang2_False() { assertTrue(mittel.isWellSorted(new String[]{"A","B","F","E","D","C"}));}
+
+    @Test
+    public void isWellSorted_lang3_True() { assertTrue(mittel.isWellSorted(new String[]{"B","A","C","D","E","F"}));}
+
+
 
 
 
