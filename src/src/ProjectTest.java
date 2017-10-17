@@ -1,6 +1,5 @@
 import org.junit.Test;
 import org.junit.Before;
-
 import static org.junit.Assert.*;
 public class ProjectTest {
 
@@ -8,6 +7,7 @@ public class ProjectTest {
 
     @Before
     public void setUp() {
+        leer = new Project (new String[][]{});
         einfach = new Project(new String[][]{{"A","B"},{"B","C"}});
         mittel = new Project(new String[][]{{"A","B"},{"B","C"},{"C","D"}});
         lang = new Project(new String[][]{{"A","B"},{"B","C"},{"C","D"},{"D","E"},{"E","F"}});
